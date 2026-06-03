@@ -1,2 +1,2 @@
-rootProject.name = "id-austria-provider"
+rootProject.name = "keycloak-id-austria-provider"
 include("lib")
