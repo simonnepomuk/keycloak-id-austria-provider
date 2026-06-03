@@ -1,0 +1,20 @@
+name: Release
+
+on:
+  push:
+    branches: [ 'main' ]
+
+jobs:
+  infer-version:
+    name: Infer the repository version with Nyx
+    runs-on: ubuntu-latest
+    steps:
+    - name: Git checkout
+      uses: actions/checkout@v6
+      with:
+        fetch-depth: 0
+    - name: Nyx infer
+      id: nyx
+      uses: mooltiverse/nyx@main
+    - name: Print version
+      run: echo the inferred version is ${{ steps.nyx.outputs.version }}
