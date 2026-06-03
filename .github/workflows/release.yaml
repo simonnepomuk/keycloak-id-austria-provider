@@ -16,8 +16,7 @@ jobs:
       uses: actions/checkout@v6
       with:
         fetch-depth: 0
-    - name: Nyx infer
-      id: nyx
-      uses: mooltiverse/nyx@main
-    - name: Print version
-      run: echo the inferred version is ${{ steps.nyx.outputs.version }}
+    - name: Publish
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: ./gradlew nyxPublish
