@@ -1,7 +1,6 @@
 plugins {
     `java-library`
     id("com.github.ben-manes.versions") version "0.53.0"
-    id("com.mooltiverse.oss.nyx") version "3.1.7"
 }
 
 sourceSets {
