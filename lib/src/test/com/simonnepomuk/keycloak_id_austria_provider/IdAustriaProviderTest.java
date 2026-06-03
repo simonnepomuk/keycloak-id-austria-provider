@@ -1,4 +1,4 @@
-package at.gv.bev.id_austria_provider;
+package com.simonnepomuk.keycloak_id_austria_provider;
 
 import com.github.tomakehurst.wiremock.junit5.WireMockExtension;
 import dasniko.testcontainers.keycloak.KeycloakContainer;
@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import static at.gv.bev.id_austria_provider.IdAustriaIdentityProviderFactory.PROVIDER_ID;
+import static com.simonnepomuk.keycloak_id_austria_provider.IdAustriaIdentityProviderFactory.PROVIDER_ID;
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.wireMockConfig;
 import static org.junit.jupiter.api.Assertions.*;
 

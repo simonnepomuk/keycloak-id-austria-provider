@@ -1,4 +1,4 @@
-package at.gv.bev.id_austria_provider;
+package com.simonnepomuk.keycloak_id_austria_provider;
 
 import org.keycloak.OAuth2Constants;
 import org.keycloak.broker.oidc.OIDCIdentityProvider;

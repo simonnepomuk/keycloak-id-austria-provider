@@ -1,4 +1,4 @@
-package at.gv.bev.id_austria_provider;
+package com.simonnepomuk.keycloak_id_austria_provider;
 
 import dasniko.testcontainers.keycloak.KeycloakContainer;
 import org.junit.jupiter.api.extension.*;
