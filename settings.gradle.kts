@@ -3,7 +3,7 @@ plugins {
 }
 
 nyx {
-  preset = 'simple'
+  preset = "simple"
 }
 
 rootProject.name = "keycloak-id-austria-provider"
