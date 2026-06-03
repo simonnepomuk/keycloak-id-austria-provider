@@ -2,10 +2,9 @@ name: Release
 
 on:
   workflow_run:
-    workflows: ["Build"]
+    workflows: [Build]
     branches: [main]
-    types: 
-      - completed
+    types: [completed]
 
 jobs:
   infer-version:
