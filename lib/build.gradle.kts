@@ -51,9 +51,4 @@ java {
 
 tasks.test {
     useJUnitPlatform()
-    dependsOn(tasks.jar)
-}
-
-tasks.jar {
-    archiveFileName.set("id-austria-provider.jar")
 }
