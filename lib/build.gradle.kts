@@ -37,9 +37,9 @@ dependencies {
 
     testRuntimeOnly("org.junit.platform:junit-platform-launcher:6.0.3")
 
-    implementation("org.keycloak:keycloak-server-spi:26.6.0")
-    implementation("org.keycloak:keycloak-services:26.6.0")
-    implementation("org.keycloak:keycloak-model-jpa:26.6.0")
+    implementation("org.keycloak:keycloak-server-spi:26.6.2")
+    implementation("org.keycloak:keycloak-services:26.6.2")
+    implementation("org.keycloak:keycloak-model-jpa:26.6.2")
     implementation("com.fasterxml.jackson.core:jackson-core:2.21.2")
 }
 
