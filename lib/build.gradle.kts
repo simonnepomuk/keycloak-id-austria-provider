@@ -33,7 +33,7 @@ dependencies {
     testImplementation("org.mockito:mockito-junit-jupiter:5.23.0")
     testImplementation("io.rest-assured:rest-assured:6.0.0")
     testImplementation("com.github.dasniko:testcontainers-keycloak:4.2.0")
-    testImplementation("org.apache.httpcomponents.client5:httpclient5:5.6")
+    testImplementation("org.apache.httpcomponents.client5:httpclient5:5.6.3")
 
     testRuntimeOnly("org.junit.platform:junit-platform-launcher:6.0.3")
 
